@@ -6,7 +6,7 @@
 		<module.version>0.0.2-SNAPSHOT</module.version> <!--  Maven artifact version -->
 		<module.importedPackages>*
 		</module.importedPackages>
-		<module.exportedPackages>de.linnk.nx
+		<module.exportedPackages>*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
@@ -57,7 +57,7 @@
 						</Embed-Dependency>
 						<Embed-Directory>target/dependency</Embed-Directory>-->
 						<Embed-Transitive>${module.embedTransitive}</Embed-Transitive>
-						<_exportcontents>${module.exportedContents}</_exportcontents>
+						<!-- <_exportcontents>${module.exportedContents}</_exportcontents>-->
 					</instructions>
 				</configuration>
 			</plugin>
