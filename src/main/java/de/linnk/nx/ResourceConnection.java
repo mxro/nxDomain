@@ -44,31 +44,6 @@ public interface ResourceConnection {
 	public Object resolve(String uri);
 	
 	/**
-	 * returns a specific version of resource
-	 * versionExpression is formatted similar as Maven versions eg. "1.1.1" or "[0.0.1,)"
-	 * versionExpression can also be "latest" to retrieve the latest version
-	 * 
-	 * @param uri
-	 * @param version
-	 * @return
-	 */
-	public Object resolveVersion(String uri, String versionExpression);
-	
-	/**
-	 * returns the latest version of an artifact 
-	 * 
-	 * @param uri
-	 * @return
-	 */
-	public String getLatestsVersion(String uri);
-	
-	public getVersions(String uri)
-	
-	public boolean redoPossible(String uri);
-	
-	public boolean undoPossible(String uri);
-	
-	/**
 	 * for composite resource connections, one NodeChange might pend in more than
 	 * one used ResourceConnections
 	 * 
@@ -84,6 +59,20 @@ public interface ResourceConnection {
 	 */
 	public Object getStatusNode(String uriDomain);
 	
-	public void setAutorizationManager();
+	/**
+	 * checks whether there are updates for the given resource in remote systems
+	 * 
+	 * triggers changeListener events
+	 * 
+	 * @param uri
+	 */
+	public void checkForUpdates(String uri);
+	
+	/**
+	 * specifies the identiy with which requests are made.
+	 * 
+	 * @param identity
+	 */
+	public void setIdentiy(Identity identity);
 	
 }
