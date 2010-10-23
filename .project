@@ -17,4 +17,5 @@
     <nature>org.eclipse.jdt.core.javanature</nature>
     <nature>org.eclipse.pde.PluginNature</nature>
   </natures>
+  <linkedResources/>
 </projectDescription>
