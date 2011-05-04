@@ -10,4 +10,5 @@ Bnd-LastModified: 1291359044233
 Created-By: Apache Maven Bundle Plugin
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: nxDomain
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 

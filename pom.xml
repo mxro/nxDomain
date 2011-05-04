@@ -101,6 +101,7 @@
 						</Embed-Dependency>
 						<Embed-Directory>target/dependency</Embed-Directory>-->
 						<Embed-Transitive>${module.embedTransitive}</Embed-Transitive>
+						<Bundle-RequiredExecutionEnvironment>JavaSE-1.6</Bundle-RequiredExecutionEnvironment>
 						<!-- <_exportcontents>${module.exportedContents}</_exportcontents>-->
 					</instructions>
 				</configuration>
