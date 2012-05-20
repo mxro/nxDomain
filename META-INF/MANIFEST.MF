@@ -1,14 +1,14 @@
 Manifest-Version: 1.0
 Export-Package: de.linnk.nx
 Ignore-Package: java.util,de.linnk.nx,java.lang
-Built-By: mroh004
+Built-By: Max
 Tool: Bnd-0.0.357
 Bundle-Name: nxDomain
 Created-By: Apache Maven Bundle Plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Version: 0.0.2.SNAPSHOT
-Build-Jdk: 1.6.0_27
-Bnd-LastModified: 1316055934912
+Build-Jdk: 1.6.0_24
+Bnd-LastModified: 1337490448647
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: nxDomain
 
